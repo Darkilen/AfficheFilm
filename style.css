@@ -8,6 +8,10 @@ body{
 .affiche{
   background-color: #0B0B0B;
   height: 100vh;
+  background-size: cover;
+  background-image:url("jurassic-park-affiche-film.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 span, h2{
   color: #5C5753;
@@ -55,13 +59,6 @@ img{
 }
 .image2{
   width: 22vw;
-}
-
-.affiche{
-  background-size: cover;
-  background-image:url("jurassic-park-affiche-film.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 @font-face {
