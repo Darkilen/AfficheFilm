@@ -1,0 +1,75 @@
+body{
+  background-color: black;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.affiche{
+  background-color: #0B0B0B;
+  height: 100vh;
+}
+span, h2{
+  color: #5C5753;
+  margin-top: 14vh;
+  text-align: center;
+  font-family: 'credit', sans-serif;
+}
+.toph2, .topspan{
+  color: #5C5753;
+  margin-top: 5.5vh;
+  text-align: center;
+  font-family: 'credit', sans-serif;
+}
+h1{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1vw;
+  margin: 27vh 10vh 0 10vh;
+  font-size: 7.5vh;
+  font-family: 'title', sans-serif;
+}
+h3{
+  color: white;
+  text-align: center;
+  margin-top: 11.5vh;
+  font-size: 2.2vh;
+}
+span{
+  font-size: 1.5vh;
+}
+h2{
+  font-size: 2.5vh;
+}
+.topspan{
+  font-size: 2.5vh;
+}
+.toph2{
+  font-size: 3.5vh;
+}
+img{
+  width: 4vw;
+  margin: 0.2vh 0.2vw 0 0.5vw;
+  height: 2.8vh;
+}
+.image2{
+  width: 22vw;
+}
+
+.affiche{
+  background-size: cover;
+  background-image:url("Jurassic-park-affiche-film.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: 'credit';
+  src: url('EDITION_.TTF');
+}
+
+@font-face {
+  font-family: 'title';
+  src: url('prehistoric.ttf');
+}
